@@ -1,4 +1,6 @@
+import Nav from '@components/Nav'
 import '@styles/global.css'
+import "@fortawesome/fontawesome-svg-core/styles.css";
 
 export const metadata = {
     title: "Noah.dev",
@@ -8,13 +10,12 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html>
+      
         <body className="main">
-            <div>
-
-            </div>
-
+          
             <main>
-                {children}
+              <Nav />
+              {children}
             </main>
         </body>
     </html>

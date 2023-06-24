@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&family=Koulen&display=swap');
+
 body, html {
     margin: 0;
     padding: 0;
@@ -8,11 +10,59 @@ body, html {
     border-right: rgba(137, 137, 137, 0.50) solid;
     border-left: rgba(137, 137, 137, 0.50) solid;
     margin-left: 2rem;
+
     margin-right: 2rem;
     min-height: 100%;
+    z-index: -1;
 }
 
-.main-content {
-    color: black;
+.bottomline {
+    
+    z-index: 100;
+    height: 100%;
 }
+
+/* page content */
+.main-content {
+    color: black;font-family: Koulen;
+}
+
+/* components */
+.navcontainer {
+    font-family: Kadwa, "Helvetica Neue", Helvetica, Arial;
+    font-size: 1.75rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    min-width: 100%;
+    border-bottom: rgba(137, 137, 137, 0.50) solid;
+    padding-bottom: 1rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.nav:first-child {
+    justify-self: start;
+    margin-left: 1rem
+}
+
+.nav:last-child {
+    justify-self: end;
+    margin-right: 1.5rem
+}
+
+.nav1 {
+    border-bottom: black solid;
+    z-index: 5;
+    margin-top: 5px;
+}
+
+
+
+
+
+
 
