@@ -22,15 +22,12 @@ body, html {
     height: 100%;
 }
 
-/* page content */
-.main-content {
-    color: black;font-family: Koulen;
-}
 
-/* components */
+
+/* component/nav */
 .navcontainer {
     font-family: Kadwa, "Helvetica Neue", Helvetica, Arial;
-    font-size: 1.75rem;
+    font-size: 2rem;
     display: grid;
     grid-template-columns: auto 1fr;
     min-width: 100%;
@@ -46,12 +43,12 @@ body, html {
 
 .nav:first-child {
     justify-self: start;
-    margin-left: 1rem
+    margin-left: 2rem
 }
 
 .nav:last-child {
     justify-self: end;
-    margin-right: 1.5rem
+    margin-right: 2rem
 }
 
 .nav1 {
@@ -59,6 +56,60 @@ body, html {
     z-index: 5;
     margin-top: 5px;
 }
+
+/* component/title */
+
+.titlecontainer {
+    display: flex;
+    align-items: center;
+    padding: 0rem;
+    margin: 0;
+    border-bottom: rgba(137, 137, 137, 0.50) solid;
+}
+
+.titlecontainer:first-child {
+    justify-self: start;
+}
+
+.title {
+    font-family: Koulen, "Courier New", monospace;
+    font-size: 4rem;
+    padding-left: 2rem;
+    align-items: center;
+}
+
+.title:first-child {
+    justify-self: start;
+}
+
+.title:last-child {
+    justify-self: end;
+}
+
+.titlebutton {
+    border-radius: 28px; 
+    font-size: inherit;
+    font-family: Koulen;
+    line-height: 140%;
+    color: white;
+    background: black;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.titlecontainer:last-child {
+    justify-self: end;
+    margin: 0rem;
+    padding: 0;
+}
+
+.picside {
+    justify-content: center;
+    margin-left: 35%;
+    padding-left: 5%;
+    border-left: rgba(137, 137, 137, 0.50) solid;
+}
+
 
 
 
