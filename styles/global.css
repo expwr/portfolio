@@ -12,7 +12,7 @@ body, html {
     margin-left: 2rem;
 
     margin-right: 2rem;
-    min-height: 100%;
+    min-height: 200%;
     z-index: -1;
 }
 
@@ -89,7 +89,7 @@ body, html {
 .titlebutton {
     border-radius: 28px; 
     font-size: inherit;
-    font-family: Koulen;
+    font-family: Koulen, "Courier New", monospace;
     line-height: 140%;
     color: white;
     background: black;
@@ -121,3 +121,52 @@ body, html {
     padding-bottom: 1rem;
 }
 
+/* component/aboutme */
+.aboutmecontainer {
+    display: flex;
+    font-family: Koulen, "Courier New", monospace;
+    border-bottom: rgba(137, 137, 137, 0.50) solid;
+    padding-bottom: 1rem;
+}
+
+.aboutmecontainer:last-child {
+    min-width: 150%;
+}
+
+.aboutmepic {
+    margin: 2.5% 10% 2% 5%;
+    filter: grayscale(100%)
+}
+
+.aboutmebutton {
+    border-radius: 28px; 
+    font-size: inherit;
+    font-family: Koulen, "Courier New", monospace;
+    line-height: 140%;
+    color: white;
+    background: black;
+    padding: .25rem 2rem .25rem;
+    font-size: 1.5rem;
+
+    margin-top: 2rem;
+}
+
+.aboutmebutton2 {
+    background: #000;
+    font-size: 1.5rem;
+    color: white;
+    width: 250px;
+    height: 50px;
+    font-family: inherit;
+}
+
+.aboutmetitle {
+    font-size: 3rem;
+    margin-bottom: -1rem;
+}
+
+.aboutmep {
+    font-size: 1.75rem;
+    width: 45%;
+    color: #686767;
+}

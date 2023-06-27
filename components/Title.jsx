@@ -1,5 +1,3 @@
-
-
 const Title = () => {
   return (
     <div className="titlecontainer">

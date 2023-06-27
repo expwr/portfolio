@@ -1,5 +1,3 @@
-
-
 const Icons = () => {
   return (
     <div className="iconscontainer">

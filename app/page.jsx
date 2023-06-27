@@ -1,3 +1,4 @@
+import AboutMe from '@components/AboutMe';
 import Icons from '@components/Icons';
 import Title from '@components/Title';
 import '@styles/global.css';
@@ -8,6 +9,7 @@ const Home = () => {
     <div>
       <Title />
       <Icons />
+      <AboutMe />
     </div>
     
   )
