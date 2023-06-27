@@ -10,7 +10,7 @@ const Title = () => {
         <button className="titlebutton">Contact</button>
       </div>
       <div className="picside">
-        <img src="\Noah2.svg" width="450" height="450" />
+        <img src="\Noah2.svg" width="500" height="500" />
       </div>
     </div>
   )

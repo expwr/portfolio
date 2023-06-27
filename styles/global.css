@@ -105,15 +105,19 @@ body, html {
 
 .picside {
     justify-content: center;
-    margin-left: 35%;
-    padding-left: 5%;
+    margin-left: 30%;
+    padding-left: 3%;
+    padding-right: 3%;
     border-left: rgba(137, 137, 137, 0.50) solid;
 }
 
-
-
-
-
-
-
+/* component/icons */
+.iconscontainer {
+    display: flex;
+    justify-content: space-evenly;
+    filter:  grayscale(100%);
+    border-bottom: rgba(137, 137, 137, 0.50) solid;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
 
